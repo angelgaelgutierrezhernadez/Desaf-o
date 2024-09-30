@@ -33,6 +33,14 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react/prop-types': [
+      'enable',
+      {
+        ignore: [],
+        customValidators: [],
+        skipUndeclared: false
+      }
+      ]
     },
   },
 ]
